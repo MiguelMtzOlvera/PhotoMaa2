@@ -1,0 +1,28 @@
+CRITICAL - 2020-12-01 10:33:59 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\Practica-formulario\system\Common.php(1119): CodeIgniter\View\View->render('tabla', Array, true)
+#1 C:\xampp\htdocs\Practica-formulario\app\Controllers\Home.php(40): view('tabla', Array)
+#2 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(918): App\Controllers\Home->tabla()
+#3 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Practica-formulario\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-01 10:40:40 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\Practica-formulario\app\Views\tabla.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\Practica-formulario\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Practica-formulario\system\Common.php(1119): CodeIgniter\View\View->render('tabla', Array, true)
+#3 C:\xampp\htdocs\Practica-formulario\app\Controllers\Home.php(54): view('tabla', Array)
+#4 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(918): App\Controllers\Home->tabla3()
+#5 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Practica-formulario\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-01 10:42:40 --> Illegal string offset 'nombre'
+#0 C:\xampp\htdocs\Practica-formulario\app\Views\tabla2.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Practica-formulario\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Practica-formulario\system\Common.php(1119): CodeIgniter\View\View->render('tabla2', Array, true)
+#3 C:\xampp\htdocs\Practica-formulario\app\Controllers\Home.php(54): view('tabla2', Array)
+#4 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(918): App\Controllers\Home->tabla3()
+#5 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Practica-formulario\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Practica-formulario\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
