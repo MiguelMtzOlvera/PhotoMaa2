@@ -1,0 +1,80 @@
+
+body{
+	background-image: url("https://miguelmtzolvera.github.io/PhotoMAA/assets/css/fondo.jpg");
+	background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+h1{
+	color: #fbf6f0;
+ 	font-size: ="+4";
+ 	font-family: "Playbill";
+ 	text-align-last: center;
+}
+
+
+
+
+h3{
+  color: #f4f4f4;
+  font-size: ="1";
+  font-family: "Bookman Old Style";
+
+}
+
+
+
+
+h4{
+  color: #f4f4f4;
+  font-size: ="1";
+  font-family: "Brush Script MT";
+
+}
+
+h5{
+  color: #532e1c;
+  font-size: ="+5";
+  font-family: "Playbill";
+  text-align-last: center;
+
+}
+
+
+
+div{
+    text-align:center;
+}
+
+
+.input-group.md-form.form-sm.form-1 input{
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+  border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+  border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+  border: 1px solid #ffca28;
+}
+
+
+
+.derecha   { float: right; }
+.izquierda { float: left;  }
+
+.titulo{
+	color: black;
+	font-family:courier;
+}
